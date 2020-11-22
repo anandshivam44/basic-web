@@ -1,0 +1,44 @@
+/* .my_nav {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+} */
+
+.my_nav {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff4f !important;
+    backdrop-filter: blur(8px);
+}
+
+.main-header {
+    background-image: url(images/Banner.jpg);
+    background-size: cover;
+    padding-top: 8em;
+    padding-bottom: 2em;
+}
+
+.header-text-holder, .subscribe-holder {
+    text-align: center;
+    color: white;
+}
+.my_card h3{
+    font-size: 1.6em;
+}
+.my_card:hover{
+    box-shadow: 20px 20px 12px rgba(0, 0, 0, 0.3);
+    transition-duration: 0.4s;
+}
+.home-body-content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.home-body-content .my_card{
+    margin-bottom: 25px;
+    transition-duration: 0.4s;
+}
+.main-footer{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: antiquewhite;
+}
+.main-footer p{
+    margin: 0px;
+}
